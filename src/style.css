@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --border-color: #E5E5E5;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+}
+
+.header__logo{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.header__menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menus-click__p{
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+.menus-click__p:hover  {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.menus-click {
+    display: none;
+    position: absolute;
+    background-color: #6F77A6;
+    width: 43px;
+    height: 2px;  
+    margin: 3px auto;
+    top: -7px;
+    left: 10px;
+}
+
+.header__menus-ctn {
+    position: relative;
+}
+
+.header__menus-ctn:hover p ~ div {
+    display: flex;
+    cursor: pointer;
+}
+
+.header__search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__search-bar-ctn {
+    overflow: hidden;
+    width: 70%;
+}
+
+.search-bar__containe-bar{
+    display: flex;
+    max-width: 260px;
+    min-width: 100px;
+    width: 96%;
+    transform: translate(87%); 
+    transition: all 2s ease;
+}
+
+.search-bar__containe-bar:hover{
+    transform: translate(0); 
+    transition: all 2s ease;
+}
+
+.bar {
+    display: flex;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    margin-right: 12px;
+    height: 26px;
+    padding: 12px;
+    outline: none;
+}
+
+.search-bar__container-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--border-color);
+    border-radius: 100%;
+    margin-right: 15px;
+    padding: 4px;
+    width: 27px;
+}
+
+.search-bar__icon{
+    background-image: url("./assets/icons/search-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+}
+
+.search-bar__button {
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    padding: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    max-width: 120px;
+    min-width: 50px;
+    width: 40%;
+}
