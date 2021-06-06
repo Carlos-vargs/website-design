@@ -91,6 +91,7 @@ header {
 
 .bar {
     display: flex;
+    width: 80%;
     border: 1px solid var(--border-color);
     border-radius: 25px;
     margin-right: 12px;
@@ -121,7 +122,8 @@ header {
     background-color: transparent;
     border: 2px solid var(--border-color);
     border-radius: 20px;
-    padding: 10px;
+    padding: 4px;
+    height: 35px;
     font-weight: 600;
     cursor: pointer;
     max-width: 120px;
@@ -213,9 +215,13 @@ main > hr {
     margin: 0 1%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1040px) {
     header{
         flex-direction: column;
+    }
+
+    main > hr {
+        margin-left: 47%;
     }
     
     .header__logo{
@@ -246,9 +252,15 @@ main > hr {
     }
     .main__section-img{
         margin: 1%;
+        max-width: 150px;
+        min-width: 100px;
+        width: 48%;
     }
     .section-information-title, .section-information-subtitle, .section-information-paragraph{
         text-align: center;
+    }
+    .menus-click__p{
+        margin-top: 2%;
     }
     
 }
