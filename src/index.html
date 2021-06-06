@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <title>Layout</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <p class="header__logo">YOUR LOGO</p>
-
-        <div class="header__menus">
+        <div class="class-flex">
             <div class="header__menus-ctn">
                 <p class="menus-click__p">MENU 1</p>
                 <div class="menus-click"></div>
@@ -34,10 +34,10 @@
                 <div class="menus-click"></div>
             </div>
         </div>
-        <div class="header__search-bar">
+        <div class="class-flex">
             <div class="header__search-bar-ctn">
                 <div class="search-bar__containe-bar">
-                    <div class="search-bar__container-icon">
+                    <div class="search-bar__container-icon class-flex">
                         <span class="search-bar__icon"></span>
                     </div>
                     <input type="text" class="bar">
@@ -46,5 +46,38 @@
             <button class="search-bar__button">GET INTO TOUCH</button>
         </div>
     </header>
+    <main>
+        <h2 class="main__title">Categories</h2>
+        <div class="class-flex">
+            <div class="position-sorts class-flex">
+                <p class="sorts-paragraph">Sort By Name </p><div class="separator-line"></div><p class="sorts-paragraph"> Sort By Date </p>
+            </div>
+        </div>
+        <section class="main__section-categorie">
+            <div class="main__section-information">
+                <p class="section-information-title">Category Name</p>
+                <p class="section-information-subtitle">25 Projects Files</p>
+                <p class="section-information-paragraph">Tempor magna elit eiusmod nostrud ut <br> occaecat voluptate. Sit irure culpa nulla occaecat</p>
+            </div>
+            <picture class="class-flex">
+                <img src="./assets/img/picture.jpg" alt="image not loaded" class="main__section-img">
+                <img src="./assets/img/picture.jpg" alt="image not loaded" class="main__section-img">
+                <img src="./assets/img/picture.jpg" alt="image not loaded" class="main__section-img">
+            </picture>
+        </section>
+        <hr>
+        <section class="main__section-categorie">
+            <div class="main__section-information">
+                <p class="section-information-title">Category Name</p>
+                <p class="section-information-subtitle">25 Projects Files</p>
+                <p class="section-information-paragraph">Tempor magna elit eiusmod nostrud ut <br> occaecat voluptate. Sit irure culpa nulla occaecat</p>
+            </div>
+            <picture class="class-flex">
+                <img src="./assets/img/picture.jpg" alt="image not loaded" class="main__section-img">
+                <img src="./assets/img/picture.jpg" alt="image not loaded" class="main__section-img">
+                <img src="./assets/img/picture.jpg" alt="image not loaded" class="main__section-img">
+            </picture>
+        </section>
+    </main>
 </body>
 </html>
