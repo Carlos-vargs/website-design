@@ -205,7 +205,9 @@ main > hr {
 
 
 .main__section-img{
-    width: 265px;
+    max-width: 265px;
+    min-width: 130px;
+    width: 50%;
     border-radius: 12px;
     margin: 0 1%;
 }
@@ -214,4 +216,38 @@ main > hr {
     header{
         flex-direction: column;
     }
+    
+    .header__logo{
+        margin: 5% auto;
+    }
+
+    .class-flex{
+        flex-wrap: wrap;
+        margin: 4% auto;
+    }
+    .main__title{
+        margin: auto;
+    }
+    .bar {
+        width: 60%;
+        margin-right: 15%;
+    }
+    .search-bar__container-icon{
+        margin: auto;
+        margin-right: 5px;
+    }
+    .search-bar__button{
+        margin: 5% auto;
+    }
+    .search-bar__containe-bar{
+        transform: none;
+        transition: none;
+    }
+    .main__section-img{
+        margin: 1%;
+    }
+    .section-information-title, .section-information-subtitle, .section-information-paragraph{
+        text-align: center;
+    }
+    
 }
