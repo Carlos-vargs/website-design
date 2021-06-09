@@ -216,7 +216,7 @@ main > hr {
     margin: 0 1%;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1024px) {
     header{
         flex-direction: column;
     }
