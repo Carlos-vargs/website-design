@@ -22,8 +22,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 2%;
-    margin-right: 2.8%;
+    margin: 2% auto;
+    width: 1366px;
 }
 
 .class-flex {
@@ -134,14 +134,13 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 1366px;
     height: auto;
     margin: 0 auto;
-
 }
 
 main > hr {
-    margin: 0 9vw 0 37vw;
+    margin: 0 9% 0 37%;
     border-top: none;    
 }
 
@@ -153,7 +152,7 @@ main > hr {
 }
 
 .position-sorts{
-    margin-left: 70vw;
+    margin-left: 70%;
 }
 
 .sorts-paragraph {
@@ -218,6 +217,10 @@ main > hr {
 @media (max-width: 1024px) {
     header{
         flex-direction: column;
+        width: auto;
+    }
+    main{
+        width: auto;
     }
 
     main > hr {
