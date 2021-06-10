@@ -87,7 +87,6 @@ header {
 
 .search-bar__containe-bar:hover{
     transform: translate(0); 
-    transition: all 2s ease;
 }
 
 .bar {
@@ -163,7 +162,6 @@ main > hr {
 }
 
 .sorts-paragraph:hover {
-    transition: all 1s ease;
     color: black;
     cursor: pointer;
 }
