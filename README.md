@@ -1,6 +1,6 @@
 # Website-design
 
-"Website-design" is a simple template design
+Website-design is a simple template design
 
 ## Installation
 
