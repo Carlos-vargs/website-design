@@ -7,7 +7,7 @@ Website-design is a simple template design
  Use Git Clone Command [git clone](https://git-scm.com/docs/git-clone) to install Website-design.
 
 ```bash
- git clone https://github.com/Carlos-vargs/Website-design.git myProject
+ git clone https://github.com/Carlos-vargs/website-design.git myProject
  cd myProject
 ```
 
